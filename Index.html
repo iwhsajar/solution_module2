@@ -1,0 +1,162 @@
+<DOCTYPE! HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>box model</title>
+	<style>
+		h1{
+			margin-bottom: 50px;
+			
+		}
+		@media only screen and (max-width: 991px) and (min-width: 767px) {
+		#box1{
+			background-color: #FFEBCD;
+			float:left;
+			box-sizing: border-box;
+			width: calc(50% - 20px);
+			height:25%;
+			margin:10px;
+			border: 2px solid black;
+		}
+		#box2{
+			background-color: #FFEBCD;
+			float:left;
+			box-sizing: border-box;
+			width: calc(50% - 20px);
+			height:25%;
+			margin:10px;
+			border: 2px solid black;
+		}
+		#box3{
+			background-color: #FFEBCD;
+			float:left;
+			box-sizing: border-box;
+			width: calc(100% - 20px);
+			height:25%;
+			margin:10px;
+			border: 2px solid black;
+		}
+	}
+	@media (min-width:991px) {
+		#box1{
+			background-color: #FFEBCD;
+			float:left;
+			box-sizing: border-box;
+			width: calc(33.33% - 20px);
+			height:25%;
+			margin:10px;
+			border: 2px solid black;
+		}
+		#box2{
+			background-color: #FFEBCD;
+			float:left;
+			box-sizing: border-box;
+			width: calc(33.33% - 20px);
+			height:25%;
+			margin:10px;
+			border: 2px solid black;
+		}
+		#box3{
+			background-color: #FFEBCD;
+			float:left;
+			box-sizing: border-box;
+			width: calc(33.33% - 20px);
+			height:25%;
+			margin:10px;
+			border: 2px solid black;
+		}
+	}
+	@media (max-width:767px) {
+		#box1{
+			background-color: #FFEBCD;
+			float:left;
+			box-sizing: border-box;
+			width: calc(100% - 20px);
+			height:25%;
+			margin:10px;
+			border: 2px solid black;
+		}
+		#box2{
+			background-color: #FFEBCD;
+			float:left;
+			box-sizing: border-box;
+			width: calc(100% - 20px);
+			height:25%;
+			margin:10px;
+			border: 2px solid black;
+		}
+		#box3{
+			background-color: #FFEBCD;
+			float:left;
+			box-sizing: border-box;
+			width: calc(100% - 20px);
+			height:25%;
+			margin:10px;
+			border: 2px solid black;
+		}
+	}
+		.sbox1{
+			float:right;
+			background-color:#F08080;
+			border-left: 2px solid black;
+			border-bottom: 2px solid black;
+			top:0px;
+		}
+		.sbox2{
+			float:right;
+			background-color:#800000;
+			border-left: 2px solid black;
+			border-bottom: 2px solid black;
+			top:0px;
+			color: white;
+		}
+		.sbox3{
+			float:right;
+			background-color:#90EE90;
+			border-left: 2px solid black;
+			border-bottom: 2px solid black;
+			top:0px;
+		}
+		.sbox1 p {
+    		padding : 1;
+    		margin : 1;
+		}
+		.sbox2 p {
+    		padding : 1;
+    		margin : 1;
+		}
+		.sbox3 p {
+    		padding : 1;
+    		margin : 1;
+		}
+	</style>
+	</head>
+	<body>
+		<h1 align="center" style="padding-top:2%" >OUR MENU</h1>
+		<section id="box1">
+			<div style="width:100%">&nbsp;
+				<div class="sbox1">
+					<b style="text-align: center;"><p align="center" style="padding-right: 40px; padding-left: 40px">Chicken</p></b>
+				</div>
+			</div>
+			<p style="padding-right: 10px; padding-left: 10px">We have different kind of chicken dishes like chicken nuggets, chicken momo, chicken biryani. We serve best chicken with medium taste of spice. Get wholesome chicken with us.</p>
+		</section>
+	</div>
+		<section id="box2">
+			<div style="width:100%">&nbsp;
+				<div class="sbox2">
+					<b style="text-align: center;"><p align="center" style="padding-right: 40px; padding-left: 40px">Beef</p></b>
+					</div>
+				</div>
+			<p style="padding-right: 10px; padding-left: 10px">We serve well cooked beef with side dishes like curry.We have medium cooked beef paired with rice and dal to make its flavor pop.Get wholesome meal with us. </p>
+		</section>
+		<section id="box3">
+			<div style="width:100%">&nbsp;
+				<div class="sbox3">
+					<b style="text-align: center;"><p align="center" style="padding-right: 40px; padding-left: 40px">Sushi</p></b>
+					</div>
+				</div>
+			<p style="padding-right: 10px; padding-left: 10px">We have different kind of sushi like Makizushi,Temari,Nigiri,Gunkan Maki,Temakie and Narezushi.We serve Kimchi and spanish salad as a side dish.Get wholesome meal with us.</p>
+		</section>
+	</body>
+	</html>
